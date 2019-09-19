@@ -20,7 +20,9 @@ body {
 
 .header {
     display: flex;
-    justify-content: space-between
+    justify-content: space-between;
+    width: 90%;
+    margin-left:5%; 
 }
 
 .src-only {

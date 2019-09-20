@@ -384,3 +384,17 @@ footer .social-links li { /*se añade para poder espacear el social link del foo
         max-width: 1440px;
     }
 }
+@media only screen and (min-width: 2560px) {
+
+    /*TODO: FALTA CSS */
+    .container {
+        width: 80%;
+        margin: 0 auto;
+        max-width: 1440px;
+    }
+    .post ul li article {
+        min-height: 500px; /*La altura minima era demaciado grande por ello la disminui*/
+        min-width: 400px;
+        flex: 1 0 300px;
+    }
+}
